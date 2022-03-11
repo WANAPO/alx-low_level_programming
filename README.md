@@ -1,1 +1,1 @@
-My irst alx low level programming readme
+ My first 0x00 hello world readme
