@@ -6,9 +6,9 @@
  * Return: 0
  */
 int main(void)
-{ 
+{
 	char b;
-	
+
 	b = 'a';
 	while (b <= 'z')
 	{
