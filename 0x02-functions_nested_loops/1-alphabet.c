@@ -6,10 +6,14 @@
 void print-alphabet(void)
 {
 	char c;
+	int counter
 
-	for (c = 'a';c <- 'z';c++)
+	for (counter = 0; counter < 10; counter ++)
 	{
-	_putchar (c);
+		for (c = 'a';c < 'z';c++)
+		{
+		_putchar (c);
+		}
 	}
 	_putchar('\n');
 }
