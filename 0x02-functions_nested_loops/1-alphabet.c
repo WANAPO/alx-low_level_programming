@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  *prints_alphabet fnc that prints alphabet in lowercase
  *
