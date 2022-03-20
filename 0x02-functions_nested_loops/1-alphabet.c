@@ -3,20 +3,16 @@
  *prints_alphabet fnc that prints alphabet in lowercase
  *
  */
-void print-alphabet(void)
+void print_alphabet(void)
 {
-	char c;
-	int counter
+	char c = 'a';
 
-	for (counter = 0; counter < 10; counter ++)
+	while (c <= 'z')
 	{
-		for (c = 'a';c < 'z';c++)
-		{
-			_putchar (c);
-		}
-	
-		_putchar('\n');
-	}
-}	
+		_putchar(c);
+		c++;
 
-	
+	}
+	_putchar('\n');
+
+}
